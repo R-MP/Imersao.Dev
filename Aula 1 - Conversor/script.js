@@ -1,5 +1,5 @@
 function conversor() {
-    const apiKey = 'O59J2I0JV5YGVBWR';
+    const apiKey = 'API_KEY';
     const wonValue = prompt("Digite o valor em Wons");
 
     const url = `https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=KRW&to_currency=BRL&apikey=${apiKey}`;
